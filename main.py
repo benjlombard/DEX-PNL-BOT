@@ -6,10 +6,9 @@ import re
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.constants import ParseMode
 from telegram.ext import Application, CallbackQueryHandler, CommandHandler, ContextTypes, MessageHandler, filters
-from ETH_PNL import WalletReport  # Make sure the ETH_pnl.py is in the same directory or properly referenced
+from ETH_PNL import WalletReport 
 from BNB_PNL import BNBReport
 from SOLANA_PNL import SOLReport
-# Import BNBReport class
 
 # Enable logging
 logging.basicConfig(
