@@ -20,8 +20,9 @@ class WalletReport:
             base_url="https://api.dune.com",
             request_timeout=self.request_timeout
         )
-        self.TRANSACTION_QUERY_ID = 3831623
-        self.SUMMARY_QUERY_ID = 3831751
+        self.TRANSACTION_QUERY_ID =  4955925  
+        self.SUMMARY_QUERY_ID = 4955940 
+      
         self.parameters = [
             QueryParameter.text_type(name='day', value='-30'),
             QueryParameter.text_type(name='wallet', value=self.wallet_address)
