@@ -4,4 +4,4 @@ A telegram bot that will provide you with the profit and loss ratio of trading w
 
 
 
-#update coming soon
+# update coming soon
